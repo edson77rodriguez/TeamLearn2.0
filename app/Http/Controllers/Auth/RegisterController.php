@@ -9,6 +9,8 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Auth; 
 use Illuminate\Support\Str; 
+use App\Models\Role;
+
 
 class RegisterController extends Controller
 {
