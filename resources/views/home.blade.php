@@ -51,7 +51,7 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">Proyectos</a></li>
+          <li><a href="interfaz.proyectos">Proyectos</a></li>
           <li><a href="services.html">Perfil</a></li>
           <li><a href="testimonials.html">Notificaciones</a></li>
           <li><a href="blog.html">Blog</a></li>

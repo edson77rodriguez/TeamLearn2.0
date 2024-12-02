@@ -7,6 +7,8 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\RolController;
 use App\Http\Controllers\EstadoController;
 use App\Http\Controllers\Tipo_RecursoController;
+use App\Http\Controllers\ProyectoController;
+
 
 
 
@@ -31,6 +33,7 @@ Route::middleware(['auth'])->group(function () {
     Route::resource('roles', RolController::class);
     Route::resource('estados', EstadoController::class);
     Route::resource('tipos', Tipo_RecursoController::class);
+    Route::resource('proyectos', ProyectoController::class);
 
 
 
